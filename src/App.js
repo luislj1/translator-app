@@ -55,13 +55,13 @@ function App() {
       </div>
 
       <div className='flex flex-col gap-6 w-[500px]'>
-        <textarea className='p-2 resize-none border-2 border-black border-[#81C8CD] rounded-lg focus:outline-none' rows={5} spellCheck='false'
+        <textarea className='p-2 resize-none border-2 border-[#81C8CD] rounded-lg focus:outline-none' rows={5} spellCheck='false'
         onChange={(e) => setTextToTranslate(e.target.value)}
         value={textToTranslate}
         placeholder='Translate'
         maxLength={500}></textarea>
 
-        <textarea className='p-2 resize-none border-2 border-black border-[#81C8CD] rounded-lg focus:outline-none' rows={5} 
+        <textarea className='p-2 resize-none border-2 border-[#81C8CD] rounded-lg focus:outline-none' rows={5} 
         disabled 
         value={translatedText}
         placeholder='Translated text'
